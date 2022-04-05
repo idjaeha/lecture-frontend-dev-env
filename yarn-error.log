@@ -1,0 +1,73 @@
+Arguments: 
+  /home/jaehayi/.nvm/versions/node/v16.14.0/bin/node /home/jaehayi/.nvm/versions/node/v16.14.0/bin/yarn add --dev prittier
+
+PATH: 
+  /home/jaehayi/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/bin/remote-cli:/home/jaehayi/.nvm/versions/node/v16.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/prittier: Not found
+      at Request.params.callback [as _callback] (/home/jaehayi/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/home/jaehayi/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:520:28)
+      at Request.<anonymous> (/home/jaehayi/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:520:28)
+      at IncomingMessage.<anonymous> (/home/jaehayi/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:639:28)
+      at IncomingMessage.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1346:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "lecture-frontend-dev-env",
+    "version": "1.0.0",
+    "description": "\"프론트엔드 개발 환경의 이해\" 강의 자료입니다.",
+    "main": ".eslintrc.js",
+    "devDependencies": {
+      "@babel/core": "^7.7.7",
+      "@babel/preset-env": "^7.7.7",
+      "babel-loader": "^8.0.6",
+      "clean-webpack-plugin": "^3.0.0",
+      "css-loader": "^3.4.1",
+      "eslint": "^6.8.0",
+      "file-loader": "^5.0.2",
+      "node-sass": "^4.13.0",
+      "sass-loader": "^8.0.0",
+      "style-loader": "^1.1.2",
+      "url-loader": "^3.0.0",
+      "webpack": "^4.41.5",
+      "html-webpack-plugin": "^3.2.0",
+      "mini-css-extract-plugin": "^0.9.0",
+      "webpack-cli": "^3.3.10"
+    },
+    "scripts": {
+      "build": "webpack --progress",
+      "lint": "eslint src --fix"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jeonghwan-kim/lecture-frontend-dev-env.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jeonghwan-kim/lecture-frontend-dev-env/issues"
+    },
+    "homepage": "https://github.com/jeonghwan-kim/lecture-frontend-dev-env#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
