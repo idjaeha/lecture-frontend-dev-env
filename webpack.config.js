@@ -14,13 +14,16 @@ module.exports = {
     path: path.resolve("./dist")
   },
   devServer: {
-    overlay: true,
-    stats: "errors-only",
+    client: {
+      overlay: true,
+    },
     proxy: {
       "/api": "http://localhost:8081"
     },
     // TODO: 여기에 핫로딩을 설정하세요
+    hot: true,
   },
+  stats: "errors-only",
   module: {
     rules: [
       {
